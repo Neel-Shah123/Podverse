@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Python virtual environments
+.venv/
+my1env/
+avatar_venv/
+
+# Uploads and results (if these contain user data)
+uploads/*
+!uploads/.gitkeep
+results/*
+!results/.gitkeep
+
+# Processed files
+api/AudioBgRemover/processed_videos/
+api/Avatar/processed_videos/
+
+# Local images
+local_images/*
